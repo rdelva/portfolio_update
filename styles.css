@@ -194,7 +194,6 @@ a.social:hover {
   margin:2.5%;
   list-style-type: none;
   background-color:#333;
-  border-radius: 5%;
   opacity: 1;
   transition-property: opacity;
   transition-duration:.5s;
