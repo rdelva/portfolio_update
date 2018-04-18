@@ -45,6 +45,10 @@ a:hover {
     margin-right: auto;
     color: white;
 }
+.name a {
+  color:white;
+}
+
 .nav li {
   padding: 5px 10px 10px 10px;
 }
@@ -167,6 +171,46 @@ a.social:hover {
   clear: both;
 }
 
+
+
+
+.gallery {
+    margin: 20px 0px;
+    padding: 0px;
+}
+
+.gallery img {
+
+    max-width:100%;
+}
+
+.gallery  li{
+
+  margin:2.5%;
+  list-style-type: none;
+  background-color:#333;
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration:.5s;
+}
+
+
+.gallery li:hover {
+
+    opacity: .5;
+
+}
+
+.gallery p{
+  padding:10px;
+}
+
+.gallery a{
+  color:#eee;
+}
+
+
+
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
@@ -196,6 +240,19 @@ a.social:hover {
   main p {
     line-height: 1.6em;
   }
+
+
+.gallery li{
+  display: inline;
+  float:left;
+  width:28.3333%;
+}
+
+
+
+
+
+
 
   footer {
     font-size: 1.3em;
