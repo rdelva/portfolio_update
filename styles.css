@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: #fff;
 }
 a:hover {
   color: #6633ff;
@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #778899;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -122,6 +122,11 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #0399ff;
+}
+
+
+.hobbies li {
+  padding: 5px 0;
 }
 
 footer {
